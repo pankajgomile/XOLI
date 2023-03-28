@@ -28,7 +28,7 @@ class CommentController extends Controller
         'feeds_id' =>$request->feeds_id,
         'comment' => $request->comment,
       ]);
-dd($da);
+
     
  }else{
     redirect()->back()->with('Message',"no post found");

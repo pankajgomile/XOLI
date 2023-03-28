@@ -88,6 +88,11 @@
                                 <label>comment</label>
                                 <input type="text" name="comment" placeholder="comment here">
                             </div>
+                            <span class="text-danger">
+                                @error('comment')
+                                {{$message}}
+                      @enderror </span>
+                          
                             <button type="submit" class="botton">leave comment</button>
                         </form>
                         </div>
