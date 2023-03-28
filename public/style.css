@@ -1,0 +1,528 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500;1,600;1,700;1,800&family=Nunito:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0 50px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img.header-img {
+    height: 55px;
+}
+
+.manu {
+    display: flex;
+    align-items: center;
+}
+
+.manu li {
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login-page {
+    background-color: #fbf6f6;
+    padding: 30px 0;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.feed-form {
+    padding: 0px 40px 20px 40px;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 30px;
+    border: 1px solid #ccc8c8 !important;
+    border-radius: 10px;
+}
+
+.feed-form input{
+    border: none !important;
+    padding-left: 6px !important;
+}
+
+.feed-form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: -1px;
+    margin-top: 10px;
+
+}
+
+.border-B {
+    border-bottom: 1px solid #ccc8c8 !important;
+    border-radius: 2px;
+}
+
+.border-reg{
+    border: 2px solid white !important;
+    width: 17%;
+    margin-top: -6px;
+    margin-left: 31%;
+    margin-bottom: 20px;
+}
+
+.form input {
+    border: none;
+    width: 100%;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc8c8 !important;
+    padding: 6px 0 0 8px;
+    border-radius: 5px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+button.upload-btn {
+    border: 1px solid #ebd1d1;
+    padding: 10px 60px;
+    background: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #DDA74D;
+    border-radius: 5px;
+}
+
+.botton {
+    background-color: #DDA74D;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-top: 19px;
+    font-weight: 500;
+    border: none;
+}
+
+.footer-box {
+    background-color: #F5F5F5;
+    color: #000;
+    width: 100%;
+    padding: 30px 60px;
+}
+
+.footer p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #111010;
+    margin-bottom: 7px;
+}
+
+.footer h3 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-img{
+    margin-bottom: 20px;
+}
+
+.footer-icon i {
+    font-size: 17px;
+    margin-right: 7px;
+    height: 30px;
+    width: 30px;
+    background: #DDA74D;
+    color: white;
+    border-radius: 50%;
+    padding-left: 9px;
+    padding-top: 6px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: baseline;
+}
+
+.header {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0 50px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img.header-img {
+    height: 55px;
+}
+
+.manu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.manu li {
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.login-page {
+    width: 100%;
+    background: rgb(214, 214, 214);
+    padding: 30px 0;
+}
+
+.login-form-box {
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px gray, -5px -5px 7px gray;
+    width: 80%;
+    margin: 30px auto !important;
+    margin-top: 10px;
+}
+
+#logForm label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+form h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #000;
+}
+
+form p {
+    text-align: center;
+   
+}
+
+.login {
+    width: 80%;
+    margin: 30px auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 17px;
+}
+
+.btn {
+    margin: 25px 0 15px 0;
+    padding: 8px 50px;
+    background: #DDA74D;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+p a {
+    text-decoration: none;
+    color: #0056b3
+}
+
+.border1 {
+    border: 2px solid #DDA74D !important;
+    width: 17%;
+    margin-top: -6px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+}
+
+form#logForm {
+    padding: 40px 20px 20px 30px;
+}
+.pic {
+    width: 90%;
+}
+
+.pic img {
+    width: 100%;
+    background: #f4b1f4;
+    border-radius: 10px;
+    height: 476px;
+}
+
+.signUp-page {
+    width: 100%;
+    background: url('./image/bg.png') no-repeat center !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: none !important;
+    padding: 0 !important;
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.24), 1px 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-box {
+    width: 100%;
+    padding: 45px 70px 50px 70px;
+    background: rgb(80 98 144 / 90%);
+    margin: 0 !important;
+}
+
+
+#regForm h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+    color: white;
+}
+
+.login {
+    width: 80%;
+    margin: 0px auto;
+    background: #ffffff57;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+#regForm label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.banner-box {
+    background-color: #fbf6f6;
+    padding: 30px 0;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.monika {
+    width: 50%;
+    margin: auto;
+
+}
+
+.heading {
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feeds {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feeds-box {
+    padding: 15px 25px 40px 25px;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 30px;
+    border: 1px solid #ccc8c8 !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+}
+
+.input-box {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #000;
+    font-size: 25px !important;
+}
+
+.feeds h4 {
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+
+.feeds p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.sub-heading {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: justify;
+}
+
+.text {
+    color: #3B3E51;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+
+.like{
+    cursor: pointer;
+}
+
+.share{
+    cursor: pointer;
+}
+
+
+.like-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.like-box i {
+    margin-right: 15px;
+}
+
+.like-box p {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #ADB6BF;
+}
+
+.pt-2 {
+    margin: 20px 0;
+}
+
+.previous-next-btn {
+    text-align: end;
+    margin-top: 20px;
+}
+
+a.next {
+    font-size: 17px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: end;
+    color: #DDA74D;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+a.next:hover {
+    color: #DDA74D;
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+    .header {
+        padding: 0 10px;
+    }
+
+    .manu li {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    .botton {
+        font-size: 14px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    .footer-box {
+        padding: 30px 40px;
+    }
+
+    .footer {
+        margin-top: 41px;
+    }
+
+    .footer-center{
+        margin-top: 41px;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
+
