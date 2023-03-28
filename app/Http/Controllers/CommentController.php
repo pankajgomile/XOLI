@@ -23,7 +23,7 @@ class CommentController extends Controller
  $feed=Feeds::where('id',$request->feeds_id)->first();
 
  if($feed){
-  $da=  comment::create([
+  comment::create([
         'user_id'=>Auth::user()->id,
         'feeds_id' =>$request->feeds_id,
         'comment' => $request->comment,
